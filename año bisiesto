@@ -1,0 +1,19 @@
+Algoritmo año_bisiesto
+	Definir anob,bisiesto Como Entero
+	Escribir "escribe el año seleccionado"
+	Escribir "se definirá si es bisiesto"
+	leer anob
+	si anob mod 4 = 0 Entonces
+		si anob mod 100 = 0 Entonces
+			si anob mod 400 = 0 Entonces
+				Escribir "El año ", anob, " es bisiesto"
+			SiNo
+				Escribir "El año ", anob, " no es bisiesto"
+			FinSi
+		SiNo
+			Escribir "El año ", anob, " es bisiesto"
+		FinSi
+	SiNo
+		Escribir "El año ", anob, " no es bisiesto"
+	FinSi
+FinAlgoritmo
