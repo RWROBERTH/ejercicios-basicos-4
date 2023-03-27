@@ -1,0 +1,18 @@
+Algoritmo conteo_palabras_iguales_a_6
+	Definir palabra Como Caracter
+	Definir conteo Como Real
+	Escribir "Escribe una palabra"
+	Leer palabra
+	Repetir
+		conteo=Longitud(palabra)
+		si conteo=6 Entonces
+			Escribir "La palabra es correcta"
+			
+		sino
+			Borrar Pantalla
+			Escribir "La palabra es incorrecta."
+			Escribir "Volver a escribir una palabra"
+			leer palabra
+		FinSi
+	Hasta Que conteo=6
+FinAlgoritmo
