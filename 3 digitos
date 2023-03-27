@@ -1,0 +1,10 @@
+Algoritmo determinar_los_digitos
+	Definir numero1, numero2 Como Entero
+	Escribir "escribir un numero de 3 digitos"
+	leer numero1
+	si numero1>99 y numero1<1000 Entonces
+		Escribir "El número ",numero1," contiene 3 digitos"
+	SiNo
+		Escribir "El número ", numero1, " No contiene 3 digitos"
+	FinSi
+FinAlgoritmo
