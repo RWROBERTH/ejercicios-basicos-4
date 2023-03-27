@@ -1,0 +1,13 @@
+Algoritmo palabracorrecta_letra_a
+	Definir palabra, variable1, opc Como Caracter
+	Escribir "Escriba una palabra"
+	Leer palabra
+	variable1=Mayusculas(palabra)
+	variable1=Subcadena(variable1,1,1)
+	Segun variable1 Hacer
+		'A':
+			Escribir "correcto"
+		De Otro Modo:
+			Escribir "incorrecto"
+	FinSegun
+FinAlgoritmo
