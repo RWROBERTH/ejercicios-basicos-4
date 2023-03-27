@@ -1,0 +1,38 @@
+funcion fecha=secion(cade)
+	dia= Subcadena(cade,1,2)
+	cade2= Subcadena(cade,4,5)
+	cade3= Subcadena(cade,7,8)
+	cade4= Subcadena(cade,9,10)
+	segun cade2 Hacer
+		"01":
+			Escribir dia, " de enero de ", cade3, cade4
+		"02":
+			Escribir dia, " de febrero de ", cade3, cade4
+		"03":
+			Escribir dia, " de marzo de ", cade3, cade4
+		"04":
+			Escribir dia, " de abril de ", cade3, cade4
+		"05":
+			Escribir dia," de mayo de ", cade3, cade4
+		"06":
+			Escribir dia," de junio de ", cade3, cade4
+		"07":
+			Escribir dia," de julio de ", cade3, cade4
+		"08":
+			Escribir dia," de agosto de ", cade3, cade4
+		"09":
+			Escribir dia," de septiembre de ", cade3, cade4
+		"10":
+			Escribir dia," de octubre de ", cade3, cade4
+		"11":
+			Escribir dia," de noviembre de ", cade3, cade4
+		"12":
+			Escribir dia," de diciembre de ", cade3, cade4
+	FinSegun
+FinFuncion
+Algoritmo denote_una_fecha
+	definir cade, dia, cade2, cade3, cade4 como cadena
+	Escribir "escribir la fecha en formato (01 02 2006)"
+	leer cade
+	Escribir secion(cade)
+FinAlgoritmo
