@@ -1,0 +1,25 @@
+Algoritmo frase_de_4
+	Definir palabra, exclamacion, variable1 Como Caracter
+	Definir conteo Como Real
+	Repetir
+		Escribir "Escribe una palabra de 4 letras o más"
+		leer palabra
+		conteo=Longitud(palabra)
+		si conteo=4 Entonces
+			variable1=Concatenar('¡',palabra)
+			variable1=Concatenar(variable1,'!')
+			Escribir variable1
+		sino
+			si conteo>=5 Entonces
+				variable1=Concatenar('¿',palabra)
+				variable1=Concatenar(variable1,'?')
+				Escribir variable1
+		SiNo
+			si conteo<4 Entonces
+				Borrar Pantalla
+				Escribir "Error, la palabra contiene menos de 4"
+			FinSi
+		FinSi
+	FinSi
+	Hasta Que conteo>=4
+FinAlgoritmo
